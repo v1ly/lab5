@@ -43,4 +43,9 @@ function anagrammedName(name) {
 		console.log(name + " not known for anagramming.");
 		return name;
 	}
+
+	function anagrammedName(name) {
+		e.preventDefault();
+		$(this).css("background-color", "#7fff00");
+	}
 }
